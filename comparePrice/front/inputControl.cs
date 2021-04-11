@@ -133,8 +133,18 @@ namespace comparePrice.front
             SearchVo searchVo = new SearchVo();
             searchVo.clothesYn = false;
             searchVo.sizeType = "";
-            searchVo.kreamUrl = "https://kream.co.kr/products/23219";
+
+            /*kream test
+            searchVo.kreamUrl = "https://kream.co.kr/products/26711";
             Dictionary<string, DetailInfo> kreamInfoMap = gettingInfoService.crawlingFromkream(searchVo);
+            */
+            ///
+            /* stock test
+            searchVo.stockXUrl = "https://stockx.com/nike-sb-dunk-low-frame-skate-habibi";
+            float usdKrw = gettingInfoService.getUseKrw();
+            searchVo.usdkrw = usdKrw;
+            Dictionary<string, DetailInfo> stockXInfoMap = gettingInfoService.crawlingFromStockx(searchVo);
+            */
         }
     }
 }

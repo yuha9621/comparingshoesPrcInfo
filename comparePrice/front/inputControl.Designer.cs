@@ -172,6 +172,7 @@ namespace comparePrice.front
             this.test.TabIndex = 22;
             this.test.Text = "test";
             this.test.UseVisualStyleBackColor = true;
+            this.test.Visible = false;
             this.test.Click += new System.EventHandler(this.test_Click);
             // 
             // inputControl
